@@ -63,5 +63,10 @@ public class HelloController {
         return "index3";
     }
 
+    @GetMapping("/hello10")
+    public String index10() {
+        return "index3";
+    }
+
 
 }

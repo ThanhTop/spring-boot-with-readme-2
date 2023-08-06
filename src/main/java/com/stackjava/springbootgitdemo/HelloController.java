@@ -49,5 +49,19 @@ public class HelloController {
         return "index3";
     }
 
+    @GetMapping("/hello7")
+    public String index7() {
+        return "index3";
+    }
+     @GetMapping("/hello8")
+    public String index8() {
+        return "index3";
+    }
+
+    @GetMapping("/hello9")
+    public String index9() {
+        return "index3";
+    }
+
 
 }

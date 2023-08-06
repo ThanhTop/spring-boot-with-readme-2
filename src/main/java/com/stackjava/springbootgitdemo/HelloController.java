@@ -8,14 +8,17 @@
 package com.stackjava.springbootgitdemo;
 
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 /**
  * HelloController
  *
  * @author GM
  */
+@RestController
 public class HelloController {
 
+    private String name;
     @GetMapping("/hello")
     public String index() {
         return "index";
@@ -25,4 +28,6 @@ public class HelloController {
     public String index2() {
         return "index2";
     }
+
+
 }

@@ -29,5 +29,10 @@ public class HelloController {
         return "index2";
     }
 
+    @GetMapping("/hello3")
+    public String index4() {
+        return "index4";
+    }
+
 
 }

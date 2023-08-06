@@ -13,5 +13,5 @@ package com.stackjava.springbootgitdemo;
  * @author GM
  */
 public class HomeController {
-
+    private String age;
 }
